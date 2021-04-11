@@ -63,9 +63,9 @@ TEST_CASE( "Matrix_inconsistent_input" )
 {
     std::vector<Vector> inconsistentData
     {
-        Vector{  0.0, 0.0, 0.0 },
-        Vector{  0.0, 0.0 },
-        Vector{  0.0, 0.0, 0.0 }
+        Vector{ 0.0, 0.0, 0.0 },
+        Vector{ 0.0, 0.0 },
+        Vector{ 0.0, 0.0, 0.0 }
     };
 
     CHECK_THROWS_AS( Matrix{ inconsistentData }, std::runtime_error );
@@ -206,10 +206,10 @@ TEST_CASE( "solve_singular" )
 
 TEST_CASE( "solve_zero_pivot" )
 {
-    Matrix matrix( { Vector{ 0.0       , 1.85943691, 6.97111553, 8.69227093 },
-					 Vector{ 3.28991871, 1.53597987, 7.61514532, 3.60326283 },
-					 Vector{ 2.94417179, 6.82592967, 1.11991796, 3.83895535 },
-					 Vector{ 5.35016312, 6.02883842, 6.90193734, 1.79666592 } } );
+    Matrix matrix( { Vector{ 0.0, 1.85943691, 6.97111553, 8.69227093 },
+             Vector{ 3.28991871, 1.53597987, 7.61514532, 3.60326283 },
+             Vector{ 2.94417179, 6.82592967, 1.11991796, 3.83895535 },
+             Vector{ 5.35016312, 6.02883842, 6.90193734, 1.79666592 } } );
 
     Vector rhs { 2.50464842, 9.42931494, 3.00660354, 1.41937798 };
 
@@ -226,7 +226,7 @@ TEST_CASE( "solve_zero_pivot" )
 
     for( size_t i = 0; i < 4; ++i )
     {
-    	CHECK( computedSolution[i] == Approx( expectedSolution[i] ).epsilon( tolerance ) );
+        CHECK( computedSolution[i] == Approx( expectedSolution[i] ).epsilon( tolerance ) );
     }
 }
 

@@ -29,12 +29,12 @@ Matrix::Matrix( size_t size1, size_t size2, double value ) :
 }
 
 Matrix::Matrix(size_t size1, size_t size2) :
-	Matrix(size1, size2, 0.0)
+    Matrix(size1, size2, 0.0)
 {
 }
 
 Matrix::Matrix() :
-	Matrix(0, 0)
+    Matrix(0, 0)
 {
 }
 
@@ -99,7 +99,7 @@ void write( const Vector& vector, std::ostream& out )
 void write( const Matrix& matrix, std::ostream& out )
 {
     size_t size1 = matrix.size1( );
-    size_t size2 = matrix.size1( );
+    size_t size2 = matrix.size2( );
 
     for( size_t i = 0; i < size1; ++i )
     {
