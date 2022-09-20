@@ -1,6 +1,16 @@
 linalg
 ======
 
+<p align="left">
+<a href="https://github.com/huaminghuangtw/linalg"><img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love"></a><br/>
+<a href="https://github.com/huaminghuangtw/linalg/releases"><img src="https://img.shields.io/github/v/release/huaminghuangtw/linalg.svg?display_name=tag&style=plastic&color=lightgrey"></a>
+<a href="https://github.com/huaminghuangtw/linalg/tags"><img src="https://img.shields.io/github/v/tag/huaminghuangtw/linalg.svg?style=plastic&color=lightgrey"></a><br/> 
+<a href="https://github.com/huaminghuangtw/linalg/stargazers"><img src="https://img.shields.io/github/stars/huaminghuangtw/linalg.svg?style=social"></a>
+<a href="https://github.com/huaminghuangtw/linalg/fork"><img src="https://img.shields.io/github/forks/huaminghuangtw/linalg.svg?style=social"></a>
+<a href="https://github.com/huaminghuangtw/linalg/issues"><img src="https://img.shields.io/github/issues/huaminghuangtw/linalg.svg?style=social&logo=github"></a>
+<a href="https://github.com/huaminghuangtw/linalg/pulls"><img src="https://img.shields.io/github/issues-pr/huaminghuangtw/linalg.svg?style=social&logo=github"></a>
+</p>
+
 > A simple linear algebra library that helps to perform computations with vectors and matrices.
 
 ### Support the project
